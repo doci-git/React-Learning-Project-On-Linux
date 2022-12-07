@@ -2,7 +2,7 @@ function Tests() {
    return (
       <div>
          <ReactPage1 />
-         <ReactPage1 />
+         <Header />
          <ReactPage2 />
       </div>
    );
@@ -36,6 +36,22 @@ const ReactPage2 = () => {
             </ul>
          </div>
       </nav>
+   );
+};
+const Header = () => {
+   return (
+      <div>
+         <header>
+            <nav>
+               <img src="./React-icon.svg" width="35%"></img>
+               <h1>reasons</h1>
+            </nav>
+         </header>
+         <ol>
+            <li>its amazing</li>
+            <li>very fun</li>
+         </ol>
+      </div>
    );
 };
 
