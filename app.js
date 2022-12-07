@@ -51,6 +51,7 @@ const Header = () => {
             <li>its amazing</li>
             <li>very fun</li>
          </ol>
+         <footer>© 2021 Musa development. All rights reserved.</footer>
       </div>
    );
 };
