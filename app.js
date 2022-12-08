@@ -1,59 +1,42 @@
 function Tests() {
    return (
       <div>
-         <ReactPage1 />
          <Header />
+         <ReactPage1 />
          <ReactPage2 />
       </div>
    );
 }
-const ReactPage1 = () => {
-   return (
-      <nav>
-         <div>
-            <img src="React-icon.svg" width="20%"></img>
-            <h1 className ='first-h1'>Fun facts about React</h1>
-            <ul>
-               <li>Was first realised in 2013</li>
-               <li>Was created by Jordan Wakle</li>
-               <li>Is maintained by facebook</li>
-            </ul>
-         </div>
-      </nav>
-   );
-};
 
-const ReactPage2 = () => {
-   return (
-      <nav>
-         <div>
-            <img src="React-icon.svg" width="50%"></img>
-            <h1>Fun facts 2 about React</h1>
-            <ul>
-               <li>Was first realised in 2013</li>
-               <li>Was created by Jordan Wakle</li>
-               <li>Is maintained by facebook</li>
-            </ul>
-         </div>
-      </nav>
-   );
-};
 const Header = () => {
    return (
       <div>
          <header>
             <nav>
-               <img src="./React-icon.svg" width="35%"></img>
-               <h1>reasons</h1>
+               <img src="./React-icon.svg" className="images"></img>
+               <ul className='nav-item'>
+                  <li>home</li>
+                  <li>about</li>
+                  <li>contact</li>
+               </ul>
             </nav>
+               <h1>Reasons</h1>
          </header>
-         <ol>
-            <li>its amazing</li>
-            <li>very fun</li>
-         </ol>
-         <footer>© 2021 Musa development. All rights reserved.</footer>
       </div>
    );
+};
+
+const ReactPage1 = () => {
+   return (
+      <div>
+      <h3>main content</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur nemo suscipit. Exercitationem voluptate esse enim. Doloribus eveniet nobis odit. n</p>
+      </div>
+   );
+};
+
+const ReactPage2 = () => {
+   return <footer>©2022 musa all rights reserved</footer>;
 };
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Tests />);
