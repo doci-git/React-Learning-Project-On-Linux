@@ -12,7 +12,7 @@ const ReactPage1 = () => {
       <nav>
          <div>
             <img src="React-icon.svg" width="20%"></img>
-            <h1>Fun facts about React</h1>
+            <h1 className ='first-h1'>Fun facts about React</h1>
             <ul>
                <li>Was first realised in 2013</li>
                <li>Was created by Jordan Wakle</li>
