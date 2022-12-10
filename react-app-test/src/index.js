@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 function Header() {
    return <h1>start start strat</h1>;
-  }
-  ReactDOM.render(<Header />,document.getElementById("root"));
-  
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<Header />);
