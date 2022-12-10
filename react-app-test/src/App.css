@@ -20,7 +20,7 @@ nav img {
 nav h1 {
    font-size: 20px;
 }
-.list-menu.list-menu {
+.list-menu {
    margin: 0 auto;
    list-style: none;
    display: flex;
@@ -38,11 +38,12 @@ li {
    margin-top: 10%;
 }
 .main-div ul{
-    list-style: red;
+   margin-left: 20px;
 }
-.main-div ul li {
+.main-div ul li::marker {
     
     font-size: 18px;
+    color: rgb(16, 139, 184);
 }
 /*footer*/
 footer{
