@@ -23,6 +23,7 @@ const Header = () => {
             </ul>
          </nav>
       </header>
+      <h1>React APP</h1>
       <img src='/logo192.png'></img>
       </>
    );
