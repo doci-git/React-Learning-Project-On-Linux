@@ -1,3 +1,31 @@
-h1{
-    color: red;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: rgb(17, 17, 33);
+   color: white;
+}
+header {
+}
+nav {
+   background-color: rgb(24, 24, 34);
+   color: white;
+   display: flex;
+}
+nav img {
+   width: 60px;
+}
+nav h1 {
+   font-size: 20px;
+}
+ul {
+   margin: 0 auto;
+   list-style: none;
+   display: flex;
+}
+li {
+   font-size: 15px;
+   margin: 5px;
 }

@@ -4,6 +4,8 @@ const Header = () => {
      <>
        <header>
           <nav>
+       <img src='/logo192.png'></img>
+       <h1>React APP</h1>
              <ul>
                 <li>home</li>
                 <li>contact</li>
@@ -11,8 +13,6 @@ const Header = () => {
              </ul>
           </nav>
        </header>
-       <h1>React APP</h1>
-       <img src='/logo192.png'></img>
        </>
     );
  };
