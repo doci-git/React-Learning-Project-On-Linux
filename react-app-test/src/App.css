@@ -20,7 +20,7 @@ nav img {
 nav h1 {
    font-size: 20px;
 }
-ul {
+.list-menu.list-menu {
    margin: 0 auto;
    list-style: none;
    display: flex;
@@ -29,3 +29,19 @@ li {
    font-size: 15px;
    margin: 5px;
 }
+/*main*/
+.main-div h2 {
+    text-align: center;
+    padding: 10px;
+}
+.main-div {
+   margin-top: 10%;
+}
+.main-div ul{
+    list-style: red;
+}
+.main-div ul li {
+    
+    font-size: 18px;
+}
+/*footer*/
