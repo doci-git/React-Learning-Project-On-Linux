@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./components/Header.js";
 import Main from "./components/Main.js"
 import Footer from "./components/Footer.js";
-import "./App.css"
+import "./components/App.css"
 
 function Display() {
   return(
