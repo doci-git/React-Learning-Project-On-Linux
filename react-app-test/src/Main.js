@@ -1,10 +1,11 @@
 import React from "react";
 
 const Main = () => {
+   const mainH2 = 'Main app'
    return (
       <div className="main-div">
          <div className="img-sfondo"></div>
-         <h2>main app</h2>
+         <h2>{mainH2}</h2>
          <ul>
             <li>hello this is thet start main app </li>
             <li>firts realise was 2013</li>
