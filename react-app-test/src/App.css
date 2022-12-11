@@ -37,6 +37,7 @@ li {
    width: 25vw;
    height: 35vh;
    right: 0%;
+   opacity: 0.3;
 }
 .main-div h2 {
    text-align: center;
