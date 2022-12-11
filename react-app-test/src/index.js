@@ -9,8 +9,6 @@ function Display() {
   return(
     <>
     <Header/>
-    <Main/>
-    <Footer/>
     </>
   )
 }

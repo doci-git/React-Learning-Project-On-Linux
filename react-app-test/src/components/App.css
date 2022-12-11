@@ -9,4 +9,8 @@ body {
 nav{
    width: 550px;
    height: 70px;
+   color: rgb(106, 112, 112);
+}
+nav img{
+width: 70px;
 }
