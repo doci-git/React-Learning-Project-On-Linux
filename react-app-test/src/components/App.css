@@ -4,10 +4,9 @@
    box-sizing: border-box;
 }
 body {
-   
-   text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 nav {
    width: 550px;
    height: 70px;
