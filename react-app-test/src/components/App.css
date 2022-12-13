@@ -4,6 +4,8 @@
    box-sizing: border-box;
 }
 body {
+   
+   text-align: center;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav {
@@ -21,3 +23,4 @@ nav img {
    left: 30px;
    top: 12px;
 }
+
