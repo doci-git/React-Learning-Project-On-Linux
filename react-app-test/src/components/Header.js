@@ -2,7 +2,7 @@ import React from "react";
 const Header = () => {
    return (
       <nav>
-         <img src="./images/airbnb.jpg " alt=""></img>
+         <img src="./images/logo-airbnb.png" alt=""></img>
         
       </nav>
    );
