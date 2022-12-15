@@ -10,6 +10,7 @@ function Display() {
     <>
     <Header/>
     <Main/>
+    <Main/>
     </>
   )
 }
