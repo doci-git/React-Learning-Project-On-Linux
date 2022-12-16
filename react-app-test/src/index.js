@@ -10,7 +10,7 @@ function Display() {
       <>
          <Header />
          <Main />
-         <Main img src="./images/card-2.jpg" alt="" className="card-image" />
+         <Main />
          <Main />
       </>
    );
