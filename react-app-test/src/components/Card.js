@@ -7,9 +7,9 @@ function Card (props) {
             <img src= {props.img} alt="" className="card-image" />
             <div className="card-stats">
                 <img src="" alt="" className="card-star" />
-                <span>5.0</span>
+                <span>{props.star}</span>
                 <span className="gray">(6) • </span>
-                <span className="gray">USA</span>
+                <span className="gray">{props.state}</span>
             </div>
             <p>Life Lessons with Katie Zaferes</p>
             <p>
