@@ -6,14 +6,14 @@ function Card (props) {
         <div className="card">
             <img src= {props.img} alt="" className="card-image" />
             <div className="card-stats">
-                <img src="" alt="" className="card-star" />
+                <img src="./images/star.png" alt="" className="card-star" />
                 <span>{props.star}</span>
-                <span className="gray">(6) • </span>
+                <span className="gray">{props.comment} • </span>
                 <span className="gray">{props.state}</span>
             </div>
-            <p>Life Lessons with Katie Zaferes</p>
+            <p>{props.paragraf}</p>
             <p>
-                <span className="bold">From $136</span> / person
+                <span className="bold">{props.price}</span> / person
             </p>
         </div>
     );
