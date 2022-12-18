@@ -52,14 +52,25 @@ section {
 .hero-text {
    margin-top: 0;
 }
-
+.parent {
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 40px;
+}
 .card {
-   padding: 10px;
-   width: 255px;
+   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   padding: 13px;
+   padding-bottom: 20px;
+   width: 355px;
    font-size: 12px;
 }
 
-.card-image{
+.card-image {
    width: 100%;
    border-radius: 9px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card.js";
 function Main() {
    return (
-      <>
+      <div className="parent">
          <Card
             img="./images/card-1.jpg"
             star="5.0"
@@ -35,7 +35,7 @@ function Main() {
             paragraf="Gift Cart"
             price ="From €100"
          />
-      </>
+      </div>
    );
 }
 export default Main;
