@@ -9,7 +9,7 @@ function Main() {
             comment="(116)"
             state="Usa"
             paragraf="Life Lessons with Katie Zaferes"
-            price ="From €136"
+            price="From €136"
          />
          <Card
             img="./images/card-2.jpg"
@@ -17,7 +17,7 @@ function Main() {
             comment="(105)"
             state="Swizerland"
             paragraf="Alpes of Swiss"
-            price ="From €166"
+            price="From €166"
          />
          <Card
             img="./images/card-3.png"
@@ -25,7 +25,7 @@ function Main() {
             comment="(200)"
             state="Italy"
             paragraf="Tuscany county Side"
-            price ="From €150"
+            price="From €150"
          />
          <Card
             img="./images/card-4.jpg"
@@ -33,7 +33,7 @@ function Main() {
             comment="(36)"
             state="Airbnb"
             paragraf="Gift Cart"
-            price ="From €100"
+            price="From €100"
          />
       </div>
    );
