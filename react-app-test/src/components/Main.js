@@ -8,7 +8,9 @@ function Main() {
             star="5.0"
             comment="(116)"
             state="Usa"
-            paragraf="Life Lessons with Surf"
+            paragraf="Life Lessons with Surf
+            6
+            6"
             price="From €136"
          />
          <Card
