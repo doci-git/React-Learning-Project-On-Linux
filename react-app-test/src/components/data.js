@@ -1,5 +1,5 @@
 export default [
-    {
+    
         {
             id: 1,
             title: "Life Lessons with Katie Zaferes",
@@ -26,5 +26,5 @@ export default [
             location: "Online",
             openSpots: 0,
         }
-    }
+    
 ]
