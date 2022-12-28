@@ -33,7 +33,7 @@ export default [
             title: "Tuscany county Side",
             description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
             price: 125,
-            img:"./images/card-3.jpg",
+            img:"./images/card-3.png",
             stats: {
                 rating: 5.0,
                 reviewCount: 30

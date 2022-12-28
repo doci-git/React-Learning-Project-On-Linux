@@ -7,8 +7,8 @@ function Card(props) {
          <img src={props.img} alt="" className="card-image" />
          <div className="card-stats">
             <img src="./images/star.png" alt="" className="card-star" />
-            <span>{props.stats.rating}</span>
-            <span className="gray">{props.stats.reviewCount} • </span>
+            <span>{props.rating}</span>
+            <span className="gray">{props.reviewCount} • </span>
             <span className="gray">{props.state}</span>
          </div>
          <p>{props.description}</p>
