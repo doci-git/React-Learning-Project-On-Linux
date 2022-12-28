@@ -7,11 +7,11 @@ function Card(props) {
          <img src={props.img} alt="" className="card-image" />
          <div className="card-stats">
             <img src="./images/star.png" alt="" className="card-star" />
-            <span>{props.star}</span>
-            <span className="gray">{props.comment} • </span>
+            <span>{props.stats.rating}</span>
+            <span className="gray">{props.stats.reviewCount} • </span>
             <span className="gray">{props.state}</span>
          </div>
-         <p>{props.title}</p>
+         <p>{props.description}</p>
          <p>
             <span className="bold">{props.price}</span> / person
          </p>

@@ -10,6 +10,7 @@ export default [
                 rating: 5.0,
                 reviewCount: 6
             },
+            state:"USA",
             location: "Online",
             openSpots: 0,
         },  
@@ -23,6 +24,7 @@ export default [
                 rating: 5.0,
                 reviewCount: 6
             },
+            state:"Swizerland",
             location: "Online",
             openSpots: 0,
         },
@@ -36,6 +38,7 @@ export default [
                 rating: 5.0,
                 reviewCount: 30
             },
+            state:"Italia",
             location: "Online",
             openSpots: 27,
         },
@@ -49,6 +52,7 @@ export default [
                 rating: 4.8,
                 reviewCount: 2
             },
+            state:"Airbnb",
             location: "Norway",
             openSpots: 3,
         }
