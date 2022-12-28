@@ -11,7 +11,7 @@ function Card(props) {
             <span className="gray">{props.comment} • </span>
             <span className="gray">{props.state}</span>
          </div>
-         <p>{props.paragraf}</p>
+         <p>{props.title}</p>
          <p>
             <span className="bold">{props.price}</span> / person
          </p>
