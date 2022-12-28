@@ -1,9 +1,18 @@
 import React from "react";
 import Card from "./Card.js";
-function Main() {
+import Data from "./data.js"
+const main = Main.map(function() {
    return (
       <div className="parent">
-         <Card
+
+      <Card
+          
+      />
+
+
+
+
+         {/* <Card
             img="./images/card-1.jpg"
             star="5.0"
             comment="(116)"
@@ -36,8 +45,8 @@ function Main() {
             state="Airbnb"
             paragraf="Gift Cart"
             price="From €100"
-         />
+         /> */}
       </div>
    );
-}
+})
 export default Main;
