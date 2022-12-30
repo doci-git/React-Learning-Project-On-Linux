@@ -8,9 +8,17 @@ function Main() {
          <Card
             key={item.id}
             item={item}
+            // key={item.id}
+            // img={item.img}
+            // rating={item.stats.rating}
+            // reviewCount={item.stats.reviewCount}
+            // state={item.state}
+            // title={item.title}
+            // price={item.price}
          />
       );
    });
+   
      return (
       <div className="parent">
       {cards}
