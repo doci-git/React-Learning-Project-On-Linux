@@ -13,7 +13,7 @@ function Main() {
    });
      return (
       <div className="parent">
-      
+      {cards}
       </div>
      
       )
