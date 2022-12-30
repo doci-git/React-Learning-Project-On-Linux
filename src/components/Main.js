@@ -7,18 +7,13 @@ function Main() {
       return (
          <Card
             key={item.id}
-            img={item.img}
-            rating={item.stats.rating}
-            reviewCount={item.stats.reviewCount}
-            state={item.state}
-            title={item.title}
-            price={item.price}
+            item={item}
          />
       );
    });
      return (
       <div className="parent">
-      {cards}
+      
       </div>
      
       )
