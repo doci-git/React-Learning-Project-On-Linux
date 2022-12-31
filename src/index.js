@@ -7,12 +7,12 @@ import Main from "./components/Main.js";
 import "./components/App.css";
 
 function Display() {
-   return (
-      <>
-         <Header />
-         <Main /> 
-      </>
-   );
+    return (
+        <>
+            <Header />
+            <Main />
+        </>
+    );
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(<Display />);
