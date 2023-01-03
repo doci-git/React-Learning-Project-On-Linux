@@ -4,6 +4,7 @@ function Card(props) {
     // console.log(props);
     return (
         <div className="card">
+        <div className="sold">sold OUT</div>
             <img src={props.img} alt="" className="card-image" />
             <div className="card-stats">
                 <img src="./images/star.png" alt="" className="card-star" />
