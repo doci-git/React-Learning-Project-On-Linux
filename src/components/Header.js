@@ -3,6 +3,7 @@ const Header = () => {
    return(
     <div className="header-container">
         <img src="" alt="" />
+        <h2>Cuck Noris Joke</h2>
     </div>
    )
 };
