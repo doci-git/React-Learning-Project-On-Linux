@@ -7,6 +7,11 @@
 font-family: 'Times New Roman', Times, serif;
 }
 .header-container {
-   height: 90px;
-   background-color: rgb(67, 67, 67);
+   height: 95px;
+   background-color: #99216f;
 }
+.header-container img{
+    width: 70px;border-radius: 50%;
+    
+}
+
