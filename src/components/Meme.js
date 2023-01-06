@@ -3,11 +3,13 @@ const Form = () => {
    return (
       <div>
          <form action="">
-            <label for="fname"></label>
-            <input type="text" id="fname" name="fname" value="text" />
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lname" value="text" />
-            <input type="submit" value="Submit" />
+            <input type="text" placeholder="Top text" className="form-input" />
+            <input
+               type="text"
+               placeholder="Bottom text"
+               className="form-input"
+            />
+            <button className="form-button">generate meme</button>
          </form>
       </div>
    );
