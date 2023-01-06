@@ -1,11 +1,11 @@
 import React from "react";
 const Header = () => {
    return(
-    <div className="header-container">
-        <img src="./images/meme2.jpg" alt="" />
+    <header className="header-container">
+        <img src="./images/meme-logo.png" alt="" />
         <h2>Meme Generator</h2>
-        <h4>project 2</h4>
-    </div>
+        <h4>React project 2</h4>
+    </header>
    )
 };
 export default Header;
