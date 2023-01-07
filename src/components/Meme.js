@@ -12,7 +12,7 @@ const Form = () => {
                placeholder="Bottom text"
                className="form-input"
             />
-            <button className="form-button" onClick={generate}>
+            <button className="form-button" onMouseEnter={generate}>
                Generate meme
             </button>
          </form>
