@@ -4,28 +4,41 @@
    box-sizing: border-box;
 }
 .body {
-font-family: 'Times New Roman', Times, serif;
+   font-family: "Times New Roman", Times, serif;
 }
 .header-container {
    display: flex;
    align-items: center;
    height: 75px;
-   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
    color: white;
    padding: 20px;
 }
-.header-container img{
-    width: 70px;
-    border-radius: 50%;
-    background-color: white;
-    margin-right: 6px;
-    
+.header-container img {
+   width: 70px;
+   border-radius: 50%;
+   background-color: white;
+   margin-right: 6px;
 }
-.header-container h2{
+.header-container h2 {
    font-size: 20px;
    margin-right: auto;
 }
-.header-container h4{
+.header-container h4 {
    font-size: 12px;
 }
-
+.div-form {
+   padding: 30px;
+}
+.form {
+   display: grid;
+   grid-template: 40px 40px / 1fr 1fr;
+   gap: 17px;
+}
+.form-button {
+   grid-column: 1 / -1;
+   border-radius: 5px;
+}
+.form-imput {
+   border-radius: 5px;
+}
