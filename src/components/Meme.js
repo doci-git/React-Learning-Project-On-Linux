@@ -14,7 +14,7 @@ const Form = () => {
          <button className="form-button" onClick={generate}>
             Generate meme
          </button>
-         <img src="" alt="" />;
+         <img src=" " alt="" />
       </div>
    );
 };
