@@ -2,6 +2,7 @@ import React from "react";
 import memeData from "./memeData";
 const Form = () => {
    function generate() {
+      React.useState()
       const memesArray = memeData.data.memes;
       const random = Math.floor(Math.random() * memesArray.length);
       const url = memesArray[random].url;
@@ -14,7 +15,7 @@ const Form = () => {
          <button className="form-button" onClick={generate}>
             Generate meme
          </button>
-         <img src=" " alt="" />
+         <img src="" alt="" />
       </div>
    );
 };
