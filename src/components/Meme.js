@@ -1,8 +1,8 @@
 import React from "react";
 import memeData from "./memeData";
 const Form = () => {
+   React.useState();
    function generate() {
-      React.useState()
       const memesArray = memeData.data.memes;
       const random = Math.floor(Math.random() * memesArray.length);
       const url = memesArray[random].url;
