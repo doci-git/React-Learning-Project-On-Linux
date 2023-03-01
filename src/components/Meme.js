@@ -19,7 +19,7 @@ const Form = () => {
                className="form-input"
             />
             <button className="form-button" onClick={generate}>
-               Generate meme
+               Generate-meme
             </button>
          </div>
          <img src={imgs} className="img-meme" />
