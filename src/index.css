@@ -36,3 +36,57 @@ code {
 .h6-nav {
    padding-top: 1.5rem;
 }
+.div-card {
+   display: grid;
+}
+
+section {
+   background-color: #e6ecd2da;
+   width: 48%;
+   margin: 10px;
+}
+.card-title {
+   font-size: 1.5em;
+   width: 90%;
+   margin: 0;
+   color: #303133;
+}
+.card-content {
+   font-size: 1.1em;
+   width: 85%;
+   text-align: justify;
+   color: #545759;
+}
+
+button {
+   width: 100px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1.15em;
+   font-weight: bold;
+   background: transparent;
+   border-radius: 100vh;
+   border: solid 2px #545759;
+   color: #545759;
+   cursor: pointer;
+   transition: ease 0.3s;
+}
+
+button:hover {
+   border: 2px solid green;
+   color: green;
+   transform: scale(1.06);
+}
+
+/* The "hole" on the right, where your image should be */
+.picture {
+   width: 300px;
+   aspect-ratio: 1;
+   overflow: hidden;
+   border-radius: 50%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
