@@ -49,27 +49,55 @@ code {
    position: absolute;
    width: 125px;
    height: 168px;
-   left: 40px;
+   left: 20px;
    top: 100px;
    border-radius: 5px;
 }
+h5 {
+   position: absolute;
+   width: 40px;
+   height: 10px;
+   left: 165px;
+   top: 119px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.24px;
+   line-height: 12px;
+   letter-spacing: 0.17em;
+
+   color: #2b283a;
+}
+h5 span {
+   position: absolute;
+   width: 150px;
+   height: 13px;
+   left: 59px;
+   font-size: 10.24px;
+   line-height: 12px;
+   text-decoration-line: underline;
+   color: #918e9b;
+}
 .card-title {
    position: absolute;
-   width: 50%;
-   height: 40px;
-   left: 184px;
-   top: 136px;
-   color: #303133;
+   width: 326px;
+   height: 33px;
+   left: 164px;
+   top: 133px;
+
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30px;
+
+   color: #2b283a;
 }
 .card-content {
    position: absolute;
-   width: 50%;
    height: 45px;
-   left: 184px;
-   top: 203px;
+   left: 164px;
+   top: 183px;
    font-size: 12px;
-   line-height: 150%;
-   /* or 15px */
-
    color: #2b283a;
 }
