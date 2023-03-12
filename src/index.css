@@ -21,22 +21,30 @@ code {
       monospace;
 }
 .nav-div {
-   padding: 10px;
+   height: 76px;
    display: flex;
    justify-content: space-between;
    background-color: #f55a5a;
    color: white;
 }
 .h2-nav {
-   text-align: center;
    font-family: "Climate Crisis", cursive;
+   padding: 10px;
+   font-weight: 400;
    letter-spacing: 2px;
 }
 .h6-nav {
-   padding-top: 1.5rem;
+   padding-top: 2.9rem;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12.24px;
+   line-height: 12px;
+   letter-spacing: 0.1em;
 }
 .test-div {
    height: 250px;
+   width: 100vw;
 }
 .div-card {
    flex: 0 0 auto; /* ADD */
@@ -68,19 +76,24 @@ h5 {
 
    color: #2b283a;
 }
-h5 span {
+
+span {
    position: absolute;
    width: 150px;
    height: 13px;
-   left: 59px;
+   left: 65px;
+   top: 0px;
    font-size: 10.24px;
    line-height: 12px;
    text-decoration-line: underline;
    color: #918e9b;
 }
+a {
+   color: #918e9b;
+}
 .card-title {
    position: absolute;
-   width: 326px;
+   width: 50%;
    height: 33px;
    left: 164px;
    top: 133px;
@@ -95,6 +108,7 @@ h5 span {
 }
 .card-content {
    position: absolute;
+   width: 50%;
    height: 45px;
    left: 164px;
    top: 183px;

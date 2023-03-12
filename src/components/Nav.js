@@ -6,8 +6,8 @@ const Nav = () => {
    const y = date.getFullYear();
    return (
       <div className="nav-div">
-         <h2 className="h2-nav">Travel journal</h2>
-         <h6 className="h6-nav">best place to visit in/{y}</h6>
+         <h2 className="h2-nav">Travel blog</h2>
+         <h6 className="h6-nav">Must visited in/{y}</h6>
       </div>
    );
 };
