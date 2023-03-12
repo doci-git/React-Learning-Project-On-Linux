@@ -16,7 +16,7 @@ export default [
       id: 2,
       title: "Cinque Terre",
       state: "Italia",
-      link: "https://goo.gl/maps/p3fekdnkdd5p1vqU8",
+      link: "https://goo.gl/maps/Y6E2gvw3XryaTkCB7",
       description:
          "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos perferendis commodi nam nobis placeat ducimus non perspiciatis veniam eaque in? Minus quam modi illo eaque?",
       coverImg:
@@ -28,7 +28,7 @@ export default [
       id: 3,
       title: "Firenze",
       state: "Italy",
-      link: "https://goo.gl/maps/p3fekdnkdd5p1vqU8",
+      link: "https://goo.gl/maps/rnTsFxtsnaE6iA1J9",
       description:
          "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos perferendis commodi nam nobis placeat ducimus non perspiciatis veniam eaque in? Minus quam modi illo eaque?",
       coverImg:
