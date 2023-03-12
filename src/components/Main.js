@@ -6,6 +6,6 @@ const Main = () => {
    const cards = data.map((item) => {
       return <Card item={item} />;
    });
-   return <div>{cards}</div>;
+   return <div className="main-card">{cards}</div>;
 };
 export default Main;
