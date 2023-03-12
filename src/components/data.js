@@ -1,7 +1,7 @@
 export default [
    {
       id: 2,
-      title: "Learn Wedding Photography",
+      title: "italy",
       description:
          "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
       coverImg:
@@ -11,7 +11,7 @@ export default [
    },
    {
       id: 2,
-      title: "Learn Wedding Photography",
+      title: "Abania",
       description:
          "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
       coverImg:

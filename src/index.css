@@ -24,7 +24,7 @@ code {
    padding: 10px;
    display: flex;
    justify-content: space-between;
-   background-color: rgba(14, 14, 14, 0.59);
+   background-color: #f55a5a;
    color: white;
 }
 .h2-nav {
@@ -32,56 +32,44 @@ code {
    font-family: "Climate Crisis", cursive;
    letter-spacing: 2px;
 }
-.h5-nav,
 .h6-nav {
    padding-top: 1.5rem;
 }
-.main-card {
-   padding: 3px;
-   display: grid;
-   grid-template: 40px 40px / 1fr 1fr;
-   gap: 17px;
+.test-div {
+   height: 250px;
+}
+.div-card {
+   flex: 0 0 auto; /* ADD */
+   display: flex; /* ADD */
+   flex-direction: column; /* ADD */
+   position: relative;
 }
 
-section {
-   background-color: #f5f3f3da;
+.picture {
+   position: absolute;
+   width: 125px;
+   height: 168px;
+   left: 40px;
+   top: 100px;
+   border-radius: 5px;
 }
 .card-title {
-   font-size: 1.5rem;
-   width: 90%;
-   margin: 0;
+   position: absolute;
+   width: 50%;
+   height: 40px;
+   left: 184px;
+   top: 136px;
    color: #303133;
 }
 .card-content {
-   font-size: 1.1em;
-   width: 85%;
-   text-align: justify;
-   color: #545759;
-}
+   position: absolute;
+   width: 50%;
+   height: 45px;
+   left: 184px;
+   top: 203px;
+   font-size: 12px;
+   line-height: 150%;
+   /* or 15px */
 
-button {
-   width: 100px;
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   font-size: 1.15em;
-   font-weight: bold;
-   background: transparent;
-   border-radius: 100vh;
-   border: solid 2px #545759;
-   color: #545759;
-   cursor: pointer;
-   transition: ease 0.3s;
-}
-
-button:hover {
-   border: 2px solid green;
-   color: green;
-   transform: scale(1.06);
-}
-
-/* The "hole" on the right, where your image should be */
-.picture {
-   width: 150px;
-   border-radius: 5%;
+   color: #2b283a;
 }
