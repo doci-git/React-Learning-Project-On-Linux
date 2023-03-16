@@ -3,9 +3,10 @@ import data from "./data";
 
 const Main = () => {
    const butt = () => {
-      const item = data.data.memes.url;
+      const item = data.data.memes;
       const random = Math.floor(Math.random(item) * item.length);
-      console.log(random);
+      const url = item[random].url;
+      console.log(url);
    };
    return (
       <main>
