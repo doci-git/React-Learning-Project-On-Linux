@@ -1,14 +1,21 @@
 import React from "react";
-import { useState } from "react";
+import data from "./data";
 
 const Main = () => {
+   const butt = () => {
+      const item = data.data.memes.url;
+      const random = Math.floor(Math.random(item) * item.length);
+      console.log(random);
+   };
    return (
       <main>
-         <form className="div-form">
+         <div className="div-form">
             <input className="form-input" type="text" />
             <input className="form-input" type="text" />
-            <button className="form-button">Get a New Meme Image</button>
-         </form>
+            <button onClick={butt} className="form-button">
+               Get a New Meme Image
+            </button>
+         </div>
       </main>
    );
 };
