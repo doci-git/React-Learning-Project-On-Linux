@@ -2,7 +2,7 @@
 
 ### useEffect
 
-### useSTATE
+### useState
 
 ### MAP PROPS
 
