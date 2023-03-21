@@ -41,3 +41,9 @@
 .form-input {
    border-radius: 5px;
 }
+.img-meme {
+   position: absolute;
+   left: 5%;
+   width: 90%;
+   height: 70vh;
+}
