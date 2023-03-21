@@ -1,4 +1,4 @@
-# React App Learnin project
+# React App Learnin project.
 
 ### useEffect
 
