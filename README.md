@@ -1,5 +1,7 @@
 # React App Learnin project.
 
+### Ternary
+
 ### useEffect
 
 ### useState
